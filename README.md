@@ -7,18 +7,18 @@ Please contact me if you have any further questions about this work (Neelesh Ram
 # Copying the Data from Zenodo / Cloning
 First, clone this repository ```bash git clone https://github.com/nram812/On-the-Extrapolation-of-Generative-Adversarial-Networks-for-downscaling-precipitation-extremes.git```.
 
-Then copy the files so the "inputs" folder appears like the following:
+Then copy the files so the "inputs" and "outputs" folders so they appear like the following:
 * inputs/
-    * predictor
+    * predictor/
         *target_ACCESS-CM2_hist_ssp370_pr.nc
         *Other_GCMs_hist_SSP370_target_fields_pr.nc
 
-    * target
+    * target/
         *predictor_ACCESS-CM2_hist_ssp370.nc
         *Other_GCMs_hist_SSP370_predictor_fields.nc
         
 * outputs/
-    gt_cc_signal_final_v2_geq1mm.nc
+    *gt_cc_signal_final_v2_geq1mm.nc
 
 These files are collectively about 40GB in size. The "static" predictor files, "normalization" files should be part of this repository. 
 Please note that the "Other_GCMs...." are only used for evaluation. The training and evaluation dataset configurations are provided in a configuration file. 
