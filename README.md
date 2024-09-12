@@ -16,6 +16,9 @@ Then copy the files so the "inputs" folder appears like the following:
     * target
         *predictor_ACCESS-CM2_hist_ssp370.nc
         *Other_GCMs_hist_SSP370_predictor_fields.nc
+        
+* outputs/
+    gt_cc_signal_final_v2_geq1mm.nc
 
 These files are collectively about 40GB in size. The "static" predictor files, "normalization" files should be part of this repository. 
 Please note that the "Other_GCMs...." are only used for evaluation. The training and evaluation dataset configurations are provided in a configuration file. 
