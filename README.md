@@ -10,12 +10,12 @@ First, clone this repository ```bash git clone https://github.com/nram812/On-the
 Then copy the files so the "inputs" and "outputs" folders so they appear like the following:
 * inputs/
     * predictor/
-        *target_ACCESS-CM2_hist_ssp370_pr.nc
-        *Other_GCMs_hist_SSP370_target_fields_pr.nc
+        * target_ACCESS-CM2_hist_ssp370_pr.nc
+        * Other_GCMs_hist_SSP370_target_fields_pr.nc
 
     * target/
-        *predictor_ACCESS-CM2_hist_ssp370.nc
-        *Other_GCMs_hist_SSP370_predictor_fields.nc
+        * predictor_ACCESS-CM2_hist_ssp370.nc
+        * Other_GCMs_hist_SSP370_predictor_fields.nc
         
 * outputs/
     *gt_cc_signal_final_v2_geq1mm.nc
